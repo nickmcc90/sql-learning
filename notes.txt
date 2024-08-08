@@ -1,1 +1,15 @@
 first init
+
+- There are many different flavors of SQL, but all of them follow the general
+guidelines. We will be learning SQLite.
+
+- Relational databases are databases where the fields (columns) of a database
+exist as a key to another database.
+
+- You can alias column names in SELECT with the AS keyword.
+Like this:
+SELECT city AS 'City'
+
+- Double dashes are for single line comments, and /* */ are for multi line comments.
+
+// Let's see if Pluralsight still works on our computer.
