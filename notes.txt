@@ -13,3 +13,19 @@ SELECT city AS 'City'
 - Double dashes are for single line comments, and /* */ are for multi line comments.
 
 // Let's see if Pluralsight still works on our computer.
+
+It works.
+
+
+
+---INTRODUCTION TO SQL---
+
+Databases help to keep your data secure (auth), backupable, shareable, and scalable.
+
+DBMS are systems that manage databases. We speak to databases with SQL.
+
+RDBMS are relational database management systems.
+
+Redis and MongoDB don't use SQL. They are called NoSQL databases.
+
+//timestamp: beginning of The Point of Every Database.
