@@ -21,11 +21,44 @@ It works.
 ---INTRODUCTION TO SQL---
 
 Databases help to keep your data secure (auth), backupable, shareable, and scalable.
-
 DBMS are systems that manage databases. We speak to databases with SQL.
-
 RDBMS are relational database management systems.
-
 Redis and MongoDB don't use SQL. They are called NoSQL databases.
 
 //timestamp: beginning of The Point of Every Database.
+
+--The Point of Every DB
+There might not just be one database at a company. It could be broken up
+into many different ones, like a finance one, a HR one, etc. These different
+databases might even have different languages that are used for each. The main point 
+is that these diff databases can serve different function other than different
+categories. Like a database for transactions happening right now, and a DB for
+past records. Or a DB for data analytics. Companies may not have just one DB.
+
+--Entities and Tables
+For each project or company, there is a different need for a database. If it was
+for mcdonald's, some of the entities (main ideas) of the database would be customers,
+orders, products, etc. Each entity would have a table that stores the data.
+
+--Rows and columns
+When designing tables, we need to predetermine the amount of columns that
+the table will have. DBMS keep it so that if you try to put data of a different
+type than it was expecting inside of a column, it will reject it.
+
+--Data Types
+When talking about what values DBMS will support, some rules can be put in place.
+For string data types, a fixed length, a variable length, and/or long text can 
+be expected. For an integer value, a whole number, or float number can be expected.
+It is easier to write queries on VARCHAR limited types than it is to do queries on
+TEXT types. TEXT types are for descriptions, and we don't want to go around labeling
+all the columns that will have strings in them as TEXT.
+
+--Primary keys
+A primary key column must contain unique values. The primary key is supposed
+to take us to a specific row. Sometimes primary keys are already defined, like
+a column for emails, or VIN numbers. If there isn't a natural primary key, we can
+add one, like an index, or order number, or ID. The DB can increment that value
+for each item put in. Primary key columns are usually identified by PK or some
+icon.
+
+--Foriegn keys and relationships
