@@ -62,3 +62,9 @@ for each item put in. Primary key columns are usually identified by PK or some
 icon.
 
 --Foriegn keys and relationships
+There can be a primary key of customer_ID in the customer table,
+but in an order table, there could be duplicate customer_IDs because
+a customer can make multiple orders. Customer_ID isn't primary key in the
+order table, order_Id is. 
+
+//timestamp: 1:09
