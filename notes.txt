@@ -68,3 +68,10 @@ a customer can make multiple orders. Customer_ID isn't primary key in the
 order table, order_Id is. 
 
 //timestamp: 1:09
+
+A foreign key is a column in a table that is a primary key within another table.
+This means that the table will specially check for the table that has the primary key
+to see if the input is valid. If a foriegn key in an order table is customerID, then
+the order table won't accept completely made up customerIDs.
+
+timestamp: 1:53
