@@ -80,3 +80,16 @@ Data will be kept consistent within itself even when multiple tables are involve
 
 --Naming conventions
 timestamp: 1:30
+There are many naming conventions. It doesn't matter.
+
+
+CHAPTER 3: WRITING SQL QUERIES
+--Select statement
+Select is for columns, and from is for tables.
+We can specific each column, or just write a
+* for all the columns
+
+SELECT *
+FROM Customer;
+
+//timestamp: Sidebar where do you write SQL?
