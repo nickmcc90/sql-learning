@@ -75,3 +75,8 @@ to see if the input is valid. If a foriegn key in an order table is customerID, 
 the order table won't accept completely made up customerIDs.
 
 timestamp: 1:53
+
+Data will be kept consistent within itself even when multiple tables are involved.
+
+--Naming conventions
+timestamp: 1:30
