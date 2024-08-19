@@ -1,0 +1,10 @@
+These notes will be from a course on youtube, because I don't want to
+pay for the pluralsight sub.
+
+Video 1: Roadmap to learning SQL
+The SQL language you learn does not matter starting out.
+Make sure to have a database and an IDE downloaded.
+
+CHECK OUT SPRINGBOARD FOR A BOOTCAMP COURSE TO LEARN!!!
+
+timestamp: 8:32
