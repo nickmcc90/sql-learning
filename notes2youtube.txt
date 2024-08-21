@@ -36,6 +36,30 @@ what do these commands actually do?
 5a. Normal forms like 1NF, 2NF, 3NF, BCNF
 5b. Why do DBs need to be normalized?
 
-6. Operators
 
 timestamp: 11:37
+
+6. Operators
+6a. Arithmetic Operators
+6b. Logical operator
+6c. Comparison operator
+6d. UNION, UNION ALL operator
+
+7. CASE statement
+7a. simple case statement vs nested cases
+
+8. Important SQL clauses
+8a. DISTINCT
+8b. Order by
+8c. Limit / top clause
+
+9. INNER JOIN
+9a. Fetching data from multiple tables.
+
+Leetcode has good SQL problems
+
+To be a DATA ANALYST OR DATA SCIENTIST, you need Intermediate level SQL skills...
+
+1. Group By and Having clause
+
+//timestamp: 16:12
