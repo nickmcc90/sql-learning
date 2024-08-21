@@ -8,3 +8,34 @@ Make sure to have a database and an IDE downloaded.
 CHECK OUT SPRINGBOARD FOR A BOOTCAMP COURSE TO LEARN!!!
 
 timestamp: 8:32
+
+---HOW TO LEARN BASIC SQL W CONCEPTS
+1. Relational database system (RDBMS)
+1a. How data is stored in a relational database?
+1b. What is a schema wrt a relational database?
+
+2. SQL commands
+2a. DDL, DML, DCL, TCL, DQL
+2b. What are commands under each of these categories and
+what do these commands actually do?
+
+3. Data types
+3a. String types like VARCHAR or TEXT
+3b. Integer type like INT, NUMBER
+3c. DATE
+3d. FLOAT / DECIMAL
+3e. BOOLEAN
+3f. Identity column (auto increment column)
+
+4. Constraints
+4a. Primary key
+4b. Foriegn key
+4c. Check constraint, not null constraint, unique constraint, default.
+
+5. Normalization in SQL
+5a. Normal forms like 1NF, 2NF, 3NF, BCNF
+5b. Why do DBs need to be normalized?
+
+6. Operators
+
+timestamp: 11:37
