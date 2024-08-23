@@ -63,3 +63,24 @@ To be a DATA ANALYST OR DATA SCIENTIST, you need Intermediate level SQL skills..
 1. Group By and Having clause
 
 //timestamp: 16:12
+
+2. Aggregate functions
+2a. min, max, avg, sum, count
+
+3. Order of execution
+3a. Helps you get unstuck in debugging
+
+4. Sub-queries
+
+5. CTE table / WITH clause
+
+6. All type of Joins
+6a. LEFT join, RIGHT join, FULL OUTER join
+6b. CROSS join, SELF join
+
+7. In-built functions
+7a. String functions like substring, position, coalesce etc.
+7b. Date functions like Extract, To_Date etc.
+
+8. Window functions
+//timestamp: 17:53
