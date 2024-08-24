@@ -60,6 +60,9 @@ Leetcode has good SQL problems
 
 To be a DATA ANALYST OR DATA SCIENTIST, you need Intermediate level SQL skills...
 
+
+--INTERMEDIATE SQL
+
 1. Group By and Having clause
 
 //timestamp: 16:12
@@ -84,3 +87,37 @@ To be a DATA ANALYST OR DATA SCIENTIST, you need Intermediate level SQL skills..
 
 8. Window functions
 //timestamp: 17:53
+8a. RANK, DENSE_RANK, ROW_NUMBER, LEAD, LAG
+8b. FIRST_VALUE, LAST_VALUE, NTH_VALUE
+
+9. Views
+
+Leetcode has good problems again for this.
+
+
+SQL CASE STUDY FROM DATA WITH DANNY
+
+
+
+--ADVANCED SQL
+1. Recursive SQL queries
+2. PIVOT table / CROSSTAB function
+3. Materialized views
+4. Stored procedure
+5. User defined functions
+
+
+
+--SQL FOR DB / SQL DEVELOPERS
+1. Indexes
+2. Triggers
+3. Temporary tables
+4. Dynamic execution of SQL statments
+5. PL/SQL concepts
+5a. 
+
+6. Performance tuning
+//timestamp: 25:01. Done with video after writing down the 5abcd stuff
+
+
+Check the video out for a link to a resource for each topic!!
