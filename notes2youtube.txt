@@ -114,7 +114,13 @@ SQL CASE STUDY FROM DATA WITH DANNY
 3. Temporary tables
 4. Dynamic execution of SQL statments
 5. PL/SQL concepts
-5a. 
+5a. Variables
+5b. Cursors
+5c. Collection types
+5d. Loop statments
+5e. IF else statments
+5f. Exception handling
+5g. Packages.
 
 6. Performance tuning
 //timestamp: 25:01. Done with video after writing down the 5abcd stuff
