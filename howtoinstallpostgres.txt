@@ -1,3 +1,10 @@
 1. Go to postgres.org
 2. Download on Mac
 3. We can choose to use EDB
+4. password i chose is in password.txt
+5. The port to build the server is 5432.
+6. Let it install.
+7. Now we can run pgAdmin 4!
+
+//timestamp: 4:40
+8. 
