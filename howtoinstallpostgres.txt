@@ -7,4 +7,8 @@
 7. Now we can run pgAdmin 4!
 
 //timestamp: 4:40
-8. 
+8. Run the desktop program.
+9. Add new server and make a name, password, localhost, all that.
+10. Once you are in the mainframe, you can right click on database and
+create a new database called test.
+//timestamp: 5:05
