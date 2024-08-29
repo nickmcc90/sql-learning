@@ -12,3 +12,6 @@
 10. Once you are in the mainframe, you can right click on database and
 create a new database called test.
 //timestamp: 5:05
+11. Within this database, clicking on 'schema' shows everything. You can check
+the tables too.
+//timestamp: 5:40
