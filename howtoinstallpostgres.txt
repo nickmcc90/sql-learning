@@ -15,3 +15,7 @@ create a new database called test.
 11. Within this database, clicking on 'schema' shows everything. You can check
 the tables too.
 //timestamp: 5:40
+12. You can right click on the current database and click query tool
+to pull up a window to write SQL commands.
+13. Let's write down the code to create a table next time...
+timestamp: 8:38
