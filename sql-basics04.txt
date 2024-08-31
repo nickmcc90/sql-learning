@@ -1,0 +1,3 @@
+SQL is used in RDBMS
+
+//timestamp: 2:56

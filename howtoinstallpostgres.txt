@@ -19,3 +19,8 @@ the tables too.
 to pull up a window to write SQL commands.
 13. Let's write down the code to create a table next time...
 timestamp: 8:38
+
+* Since he's not teaching me how, we'll just skip over it and find it in 
+a tutorial somewhere.
+
+The rest of the tutorial is how to uninstall! We don't need that.
