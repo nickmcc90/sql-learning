@@ -1,3 +1,53 @@
 SQL is used in RDBMS
 
 //timestamp: 2:56
+
+In a relational database, data is stored in
+multiple tables. Different tables are related to
+certain columns of other tables, forming a relation.
+
+There are five types of SQL commands.
+DDL - Data definition langauge
+(Create, drop, alter, truncate)
+
+DML - Data manipulation langauge
+(Insert, update, delete, merge)
+
+DCL - Data control langauge
+(grant, revoke)
+
+TCL - Transaction control langauge
+(commit, rollback, savepoint)
+
+DQL - Data query langauge
+(select)
+
+Let's look at each of them in detail.
+
+
+
+
+1. DDL
+The syntax to CREATE a table can be like this:
+
+CREATE TABLE table_name
+(
+  column1   DATA_TYPE
+  column2   DATA_TYPE CONSTRAINT
+  CONSTRAINT  constraint_name...
+)
+
+# each column is associated to a data type and optionally a constraint.
+
+Here is an actual example of a table being created:
+
+CREATE TABLE STUDENTS
+(
+  ID   VARCHAR(20) PRIMARY KEY
+ ,FIRST_NAME VARCHAR(100) NOT NULL
+ ,LAST_NAME VARCHAR(100) NOT NULL
+ ,GENDER VARCHAR(10) CHECK (GENDER IN ('M', 'F', 'Male', 'Female'))
+ ,
+)
+
+//timestamp: 4:42
