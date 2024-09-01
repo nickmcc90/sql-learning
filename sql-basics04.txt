@@ -47,7 +47,23 @@ CREATE TABLE STUDENTS
  ,FIRST_NAME VARCHAR(100) NOT NULL
  ,LAST_NAME VARCHAR(100) NOT NULL
  ,GENDER VARCHAR(10) CHECK (GENDER IN ('M', 'F', 'Male', 'Female'))
- ,
+ ,AGE INT
+ ,DOB DATE
+ ,GRADE FLOAT
+ ,IS_ACTIVE BOOLEAN
+ ,CONSTRAINT CH_STUDENTS_AGE CHECK (AGE > 0)
 )
 
 //timestamp: 4:42
+
+VARCHAR can store numbers, special characters, and letters.
+The rest are self explanatory.
+
+1b. Types of CONSTRAINTS
+
+CHECK - Helps control the values being inserted
+NOT NULL - Helps ensure the column values are never NULL
+UNIQUE - helps ensure the column values are always unique. Multiple
+nulls in these columns are allowed. Two nulls are not the same.
+
+//timestamp: 7:20
