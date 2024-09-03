@@ -67,3 +67,17 @@ UNIQUE - helps ensure the column values are always unique. Multiple
 nulls in these columns are allowed. Two nulls are not the same.
 
 //timestamp: 7:20
+
+PRIMARY KEY - ensures all values in column are unique with no NULL values.
+FOREIGN KEY - parent/child relationship between tables. Child table references
+values from parent table.
+DROP - deletes stuff
+ALTER - alters stuff. Examples:
+ALTER TABLE table_name DROP COLUMN column_name
+ALTER TABLE table_name RENAME TO New_table_name
+ALTER TABLE table_name RENAME COLUMN column_name TO New_column_name
+
+
+
+2. DML
+//timestamp: 9:03
