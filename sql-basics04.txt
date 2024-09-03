@@ -81,3 +81,13 @@ ALTER TABLE table_name RENAME COLUMN column_name TO New_column_name
 
 2. DML
 //timestamp: 9:03
+INSERT Examples:
+INSERT INTO table_name (column1, col2, col3)
+VALUES ('val1', 'val2', 'val3')
+
+Listing the column names aren't mandatory, I think inserting values
+starts from the leftmost column and goes to the right.
+
+INSERT INTO table_name VALUES
+('row1-value1', 'row1-value2'), ('row2-value1', 'row2-value2')
+//timestamp 9:17
