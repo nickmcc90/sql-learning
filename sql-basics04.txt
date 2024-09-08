@@ -144,3 +144,19 @@ a duplicate STAFF_ID value, the CONSTRAINT we set before won't allow it.
 We aren't able to put NULL values into the first and last name columns.
 
 //timestamp: 13:21
+
+The foreign key column means that we can only put values into the STAFF table
+that already exist within the SCHOOL and ADDRESS tables.
+
+CREATE TABLE ADDRESS
+(
+  ADDRESS_ID  VARCHAR(20)
+  ,STREET  VARCHAR(250)
+  ,CITY  VARCHAR(100)
+  ,STATE  VARCHAR(100)
+  ,COUNTRY  VARCHAR(100)
+)
+
+Let's checkout some more DDL commands..
+
+//timestamp: 14:29
