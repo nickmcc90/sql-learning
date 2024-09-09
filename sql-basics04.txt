@@ -160,3 +160,18 @@ CREATE TABLE ADDRESS
 Let's checkout some more DDL commands..
 
 //timestamp: 14:29
+
+To delete a table, all you need to type is...
+DROP TABLE STAFF.
+
+To get rid of the staff table.
+
+If we want to 'alter' a table, we can do so in many ways...
+
+ALTER TABLE STAFF DROP COLUMN JOIN_DATE   # This drops a column in a table.
+ALTER TABLE STAFF ALTER COLUMN AGE TYPE VARCHAR(5)  # This changes the data type of age. It was INT b4.
+ALTER TABLE STAFF RENAME TO STAFF_NEW   # This renames a table.
+ALTER TABLE STAFF RENAME COLUMN FIRST_NAME TO FULL_NAME   # This renames a column within a table.
+ALTER TABLE STAFF ADD CONSTRAINT UNQ_STF UNIQUE (STAFF_TYPE) # This adds a constraint of unique to one of our columns.
+
+//timestamp: 17:06
