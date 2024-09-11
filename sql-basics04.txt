@@ -157,6 +157,9 @@ CREATE TABLE ADDRESS
   ,COUNTRY  VARCHAR(100)
 )
 
+
+
+
 Let's checkout some more DDL commands..
 
 //timestamp: 14:29
@@ -175,3 +178,29 @@ ALTER TABLE STAFF RENAME COLUMN FIRST_NAME TO FULL_NAME   # This renames a colum
 ALTER TABLE STAFF ADD CONSTRAINT UNQ_STF UNIQUE (STAFF_TYPE) # This adds a constraint of unique to one of our columns.
 
 //timestamp: 17:06
+
+Let's checkout some DML commands...
+
+We can insert values into a table with these two syntaxes...
+
+INSERT INTO ADDRESS (ADDRESS_ID, STREET, CITY, STATE, COUNTRY)
+VALUES ('ADR1011', '222 blueberry st', 'new york', 'new york', 'USA')
+
+--or--
+
+INSERT INTO ADDRESS
+VALUES ('ADR1011', '222 blueberry st', 'new york', 'new york', 'USA')
+
+Both of these will work. You don't need to specify the columns since they
+get inserted into the table left to right.
+
+INSERT INTO ADDRESS VALUES
+('ADR1102', '223 yes st', 'cinninati', 'ohio', 'USA'),
+('ADR1103', '333 wtf st', 'indianapolis', 'indiana', 'USA')
+
+Here, we can insert multiple full entires, separated by parenthesis and commas.
+
+If we want to update any values in the table....
+
+//timestamp: 19:08
+Open pgAdmin
