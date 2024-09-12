@@ -210,3 +210,22 @@ UPDATE ADDRESS
 SET COUNTRY = "Malaysia'
 WHERE ADDRESS_ID = 'ADR1003'
 //timestamp: 19:24
+
+You can set multiple columns when changing items too.
+UPDATE ADDRESS
+SET COUNTRY = 'India', CITY = 'Bangalore'
+WHERE ADDRESS_ID = 'ADR1101'
+
+We can delete stuff too.
+If we want to delete the entry point row where a country is equal
+to Malaysia, we write:
+
+DELETE FROM ADDRESS WHERE COUNTRY = 'Malaysia'
+
+We can delete every record in the table by just doing:
+DELETE FROM ADDRESS
+
+
+
+Let's look more into DQL.
+//timestamp: 21:14
