@@ -204,3 +204,9 @@ If we want to update any values in the table....
 
 //timestamp: 19:08
 Open pgAdmin
+
+# To update a specific column value in the table.
+UPDATE ADDRESS
+SET COUNTRY = "Malaysia'
+WHERE ADDRESS_ID = 'ADR1003'
+//timestamp: 19:24
