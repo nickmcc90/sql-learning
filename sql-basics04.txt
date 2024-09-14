@@ -229,3 +229,5 @@ DELETE FROM ADDRESS
 
 Let's look more into DQL.
 //timestamp: 21:14
+
+//timestamp: 23:13
